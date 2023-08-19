@@ -9,7 +9,7 @@ This project provides:
 
 This project uses authorization to validate users.
 
-This project uses PostgresSQL as Database, SpringBoot as server, Android application as frontend.
+This project uses PostgreSQL as Database, SpringBoot as server, Android application as frontend.
 
 ## 1. Problem Statement
 
@@ -68,9 +68,9 @@ This initial iteration will provide the minimum lovable product (MLP) including:
 We will use https://render.com/ to deploy SpringBoot application where we  
 create endpoints that will handle the creation, update, and retrieval of wallets to satisfy our requirements.
 
-We will use https://render.com/ to deploy PostgresSQL database. In this database we will store 
-available cryptocurrencies that we can use in our wallet in a table in PostgresSQL. Wallets
-themselves will also be stored in PostgresSQL. For simpler cryptocurrency list retrieval, we
+We will use https://render.com/ to deploy PostgreSQL database. In this database we will store 
+available cryptocurrencies that we can use in our wallet in a table in PostgreSQL. Wallets
+themselves will also be stored in PostgreSQL. For simpler cryptocurrency list retrieval, we
 will store the list of cryptocurrencies in a given wallet directly in the wallet
 table.
 
